@@ -1,0 +1,1 @@
+Short pipeline for building Drake in a docker container, so that I can generate custom binaries for OS's other than my own.

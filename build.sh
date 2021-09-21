@@ -1,5 +1,5 @@
-docker build -t drake_py37 .
-docker create -ti --name dummy drake_py37 bash
-docker cp dummy:drake_bionic_py37.tar.gz drake_bionic_py37.tar.gz
+docker build -t drake_focal .
+docker create -ti --name dummy drake_focal bash
+docker cp dummy:drake_focal.tar.gz drake_focal.tar.gz
 docker rm -f dummy
-echo "File copied to drake_bionic_py37.tar.gz"
+echo "File copied to drake_focal.tar.gz"
